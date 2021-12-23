@@ -1,8 +1,11 @@
+#!/usr/bin/env/ node
+
 import inquirer from 'inquirer';
 import * as fs from 'fs';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import createDirectoryContents from './createDirectoryContents.js';
+
 const CURR_DIR = process.cwd();
 const __dirname = dirname(fileURLToPath(import.meta.url));
 

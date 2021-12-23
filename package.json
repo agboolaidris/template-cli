@@ -4,6 +4,9 @@
   "main": "index.js",
   "type": "module",
   "license": "MIT",
+  "bin": {
+    "template-cli": "./index.js"
+  },
   "dependencies": {
     "inquirer": "^8.0.0"
   },
